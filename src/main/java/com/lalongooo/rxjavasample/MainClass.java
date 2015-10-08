@@ -44,7 +44,7 @@ public class MainClass {
             public void onCompleted() { }
 
             @Override
-            pugit stblic void onError(Throwable e) { }
+            public void onError(Throwable e) { }
         };
 
         myObservable.subscribe(mySubscriber);

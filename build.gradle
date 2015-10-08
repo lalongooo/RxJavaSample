@@ -6,8 +6,6 @@ apply plugin: 'application'
 
 mainClassName = "com.lalongooo.rxjavasample.MainClass"
 
-println System.getProperty("java.home")
-
 compileJava {
     sourceCompatibility = '1.8'
 }
